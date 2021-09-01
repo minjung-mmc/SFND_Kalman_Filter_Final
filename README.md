@@ -1,10 +1,10 @@
 # SFND_Kalman_Filter_Final
 
 To run the algorithm, go into src directory
-'''
+```
 cmake .. && make
 ./ main.cpp
-'''
+```
 
 
 ## Overall Algorithm
@@ -194,12 +194,7 @@ Update State Using Kalman Gain K.
 
 ```
 void UKF::UpdateLidar(MeasurementPackage meas_package) {
-    /**
-   * TODO: Complete this function! Use lidar data to update the belief 
-   * about the object's position. Modify the state vector, x_, and 
-   * covariance, P_.
-   * You can also calculate the lidar NIS, if desired.
-   */
+
   int n_z_ = 2;
 
     VectorXd z(n_z_);
@@ -229,12 +224,7 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
 }
 
 void UKF::UpdateRadar(MeasurementPackage meas_package) {
-  /**
-   * TODO: Complete this function! Use radar data to update the belief 
-   * about the object's position. Modify the state vector, x_, and 
-   * covariance, P_.
-   * You can also calculate the radar NIS, if desired.
-   */
+
   
   int n_z_ = 3;
 

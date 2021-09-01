@@ -8,6 +8,7 @@ cmake .. && make
 
 
 ## Overall Algorithm
+CTRV model
 
 ![UKF Road map](/image/UKFRoadMap.png)
 

@@ -1,5 +1,12 @@
 # SFND_Kalman_Filter_Final
 
+To run the algorithm, go into src directory
+'''
+cmake .. && make
+./ main.cpp
+'''
+
+
 ## Overall Algorithm
 
 ![UKF Road map](/image/UKFRoadMap.png)
